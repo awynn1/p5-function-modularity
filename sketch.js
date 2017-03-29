@@ -28,7 +28,6 @@ function move(){
     y = y + speedy;
     x = x + speedx;
 }   
-
 function bounce(){
         //ball changes direction when it hits wall
     if(x>600 || x<0){
